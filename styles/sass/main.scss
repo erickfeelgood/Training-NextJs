@@ -1,0 +1,20 @@
+@import "base/index";
+@import "./utilities/variables.scss";
+@import "./utilities/mixin";
+
+*{
+font-family: 'Courier New', Courier, monospace;
+font-size: 1em;
+}
+
+.text {
+    &-primary{
+        color:$color-primary;
+    }
+
+    &-warning{
+        color:$color-orange;
+    }
+
+
+}
